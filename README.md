@@ -42,8 +42,7 @@ The `la` command will output the same as `ll` but including any hidden directori
 ### tree
 Outputs the same as the regular UNIX `tree` command but done so using `lsd`, therefore including all of the extras `lsd` offers.  By default, hidden directories and files are excluded, however they can be included by adding the `-a` flag.
 
-⚠️ NOTE:
-It will recurse by default to a depth of 2.  You can increase the recursion depth by adding the `--depth <N>` flag.  But note doing so could create very long output.
+**⚠️ NOTE:** It will recurse by default to a depth of 2.  You can increase the recursion depth by adding the `--depth <N>` flag.  But note doing so could create very long output.
 
 ![image](https://user-images.githubusercontent.com/33818/209944226-1fbd2bb5-bd2e-4813-b036-b5071e5f5b1c.png)
 
