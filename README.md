@@ -1,7 +1,15 @@
 # zsh-lsd
 A simple zsh plugin to override `ls` and `tree` commands with [`lsd`](https://github.com/Peltoche/lsd) instead.
 
-## ⚠️ special attention
+## Install
+Using the [:zap: Zap](https://www.zapzsh.org/) minimal zsh plugin manager, add the following to your `.zshrc`
+
+```sh
+# Install plugin
+plug "wintermi/zsh-lsd"
+```
+
+## ⚠️ Special Attention
 If you are using [zap-zsh/supercharge](https://github.com/zap-zsh/supercharge) you need to load this plugin after *superchage*, otherwise this plugin won't work because *supercharge* defines the same `ls` alias (usefull to colorize `ls` output for who is not using **lsd**).<BR><BR>
 Simply put it **after** the supercharge declaration in your `.zshrc` like this:
 
