@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/usr/bin/env zsh
 
 # Exit if the 'lsd' command could not be found
 if ! (( $+commands[lsd] )); then
