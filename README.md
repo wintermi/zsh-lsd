@@ -46,3 +46,6 @@ Outputs the same as the regular UNIX `tree` command but done so using `lsd`, the
 
 ![image](https://user-images.githubusercontent.com/33818/209944226-1fbd2bb5-bd2e-4813-b036-b5071e5f5b1c.png)
 
+
+## License
+The **zsh-lsd** plugin is released under the [Apache License 2.0](https://github.com/wintermi/zsh-lsd/blob/main/LICENSE) unless explicitly mentioned in the file header.
