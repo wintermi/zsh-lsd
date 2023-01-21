@@ -1,5 +1,5 @@
 # zsh-lsd
-A simple zsh plugin to override `ls` and `tree` commands with [`lsd`](https://github.com/Peltoche/lsd) instead.
+A zsh plugin to override `ls` and `tree` commands with [`lsd`](https://github.com/Peltoche/lsd) instead.
 
 ## Install
 Using the [:zap: Zap](https://www.zapzsh.org/) minimal zsh plugin manager, add the following to your `.zshrc`
